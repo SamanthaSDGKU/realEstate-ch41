@@ -7,24 +7,70 @@
     <title>Real Estate</title>
 </head>
 <body>
-    <header>
-        <h1>Real Estate</h1>
-        <nav>
-            <a href="about.html">About</a>
-            <a href="blog.html">Blog</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <p>We sell luxury houses, condominiums, and penthouses</p>
+    <header class="site-init">
+        <div class="container flex-vertical">
+            <div class="bar">
+                <h1>Real Estate</h1>
+                <nav>
+                    <a href="about.html">About</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            <p>We sell luxury houses, condominiums, and penthouses</p>
+        </div>
     </header>
-    <main>
-        <section>
+
+    <main >
+        <section class="container">
             <h2>More about us</h2>
-            <div>
-                <img src="./img/icon1.svg" alt="">
-                <h3>Security</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id necessitatibus accusamus repellendus fugit et in cum tempore obcaecati sequi tempora, dolore eius. Dignissimos vero pariatur eius, vitae asperiores exercitationem et!</p>
+            <div class="flex-row">
+                <div class="about-item">
+                    <img src="./img/icon1.svg" alt="">
+                    <h3>Security</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id necessitatibus accusamus repellendus fugit et in cum tempore obcaecati sequi tempora, dolore eius. Dignissimos vero pariatur eius, vitae asperiores exercitationem et!</p>
+                </div>
+                <div class="about-item">
+                    <img src="./img/icon2.svg" alt="">
+                    <h3>Best Prices</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus similique hic quasi? Dolorem eius a eveniet fugiat dolorum provident enim exercitationem officia, iure accusantium sed odio animi ipsum voluptates placeat!</p>
+                </div>
+                <div class="about-item">
+                    <img src="./img/icon3.svg" alt="">
+                    <h3>Time</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat est enim odit iste porro magnam aspernatur natus perferendis, ipsa repellendus fuga voluptatem eum soluta sequi voluptatibus consequatur quas? Et?</p>
+                </div>
             </div>
         </section>
+        <section>
+            <h2>Houses and penthouses</h2>
+            <div class="houses-item">
+                <div class="houses-item-img">
+                    <img src="./img/announcement1.jpg" alt="">
+                </div>
+                <div class="houses-item-text">
+                    <h3>Luxury house on the lake</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quae.</p>
+                    <p class="price">$ 3,000,000</p>
+                    <ul class="flex-row">
+                        <li class="flex-row">
+                            <img src="./img/icon_wc.svg" alt="">
+                            <p>3</p>
+                        </li>
+                        <li class="flex-row">
+                            <img src="./img/icon_room.svg" alt="">
+                            <p>4</p>
+                        </li>
+                        <li class="flex-row">
+                            <img src="./img/icon_parking.svg" alt="">
+                            <p>3</p>
+                        </li>
+                    </ul>
+                    <a class="btn-details" href="#">See details</a>
+                </div>
+            </div>
+        </section>
+
     </main>
     <footer>
 
