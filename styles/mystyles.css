@@ -7,7 +7,7 @@ html{
     margin: 0;
 }
 a{
-    color:black;
+    color:white;
     text-decoration: none;
     font-size: 1.6rem;
 }
@@ -117,4 +117,41 @@ padding: 1rem;
 .houses-item-text p.price{
     color:green;
     font-weight: 900;
+}
+
+/*contact*/
+
+.site-header{
+    background-color: #222222;
+    height: 10vh;
+}
+fieldset{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+legend{
+    display: block;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+}
+.form-container{
+    margin:1rem;
+
+}
+.form-label{
+    display: block;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 700;
+}
+.form-control{
+    width: 98%;
+    background-color: #e7e7e7;
+    border: none;
+    font-size: 1.6rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
 }

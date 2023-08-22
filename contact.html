@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/mystyles.css">
+    <title>Contact </title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container flex-vertical">
+            <div class="bar">
+                <a href="index.html"><h1>Real Estate</h1></a>
+                <nav>
+                    <a href="about.html">About</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Contact</h2>
+
+        <h3>Fill the next information</h3>
+
+        <fieldset>
+            <legend>Personal information</legend>
+            <div class="form-container">
+                <label class="form-label">Name:</label>
+                <input  class="form-control"type="text" placeholder="Type your name">
+            </div>
+            <div class="form-container">
+                <label class="form-label">Email:</label>
+                <input class="form-control" type="email" placeholder="Type your email">
+            </div>
+            <div class="form-container">
+                <label class="form-label">Phone:</label>
+                <input class="form-control" type="tel" placeholder="Type your phone">
+            </div>
+            <div class="form-container">
+                <label class="form-label">Message:</label>
+                <textarea class="form-control" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Product information</legend>
+            <div class="form-container">
+                <label class="form-label">Type:</label>
+                <select class="form-control">
+                    <option value="" disabled selected>-- Select an option --</option>
+                    <option value="house">House</option>
+                    <option value="house">Luxury house</option>
+                </select>
+            </div>
+            <div class="form-container">
+                <label class="form-label">Number:</label>
+                <input class="form-control" type="number">
+            </div>
+        </fieldset>
+    </main>
+</body>
+</html>
